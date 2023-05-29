@@ -113,7 +113,7 @@ then
                 exit 1;
             fi
         else
-            echo "Cancelling deletion die to snapshot faliure."
+            echo "Cancelling deletion due to snapshot faliure."
             exit 1
         fi
     fi
