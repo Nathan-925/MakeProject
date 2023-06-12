@@ -11,9 +11,7 @@ then
     echo "Driver ran successfully."
     folder="snapshot/output-$(date "+%Y-%m-%d-%H%M%S")"
     if !(mkdir $folder
-    cp seed.txt $folder
-    cp Results.txt $folder
-    cp TestCases.txt $folder)
+    cp *.txt $folder)
     then
         echo "Failed to create output folder."
         exit 1
