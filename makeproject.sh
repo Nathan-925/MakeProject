@@ -135,7 +135,7 @@ else
     exit 1
 fi
 EOF
-chmod u+x compile.sh
+chmod u+x files/compile.sh
 
 cat << 'EOF' > $runscript
 #!/bin/bash
@@ -165,7 +165,7 @@ else
     exit 1
 fi
 EOF
-chmod u+x run.sh
+chmod u+x files/run.sh
 
 cat << 'EOF' > $snapshotscript
 #!/bin/bash
@@ -181,6 +181,6 @@ else
     exit 1
 fi
 EOF
-chmod u+x make-snapshot.sh
+chmod u+x files/make-snapshot.sh
 
 exit 0
