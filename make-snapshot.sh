@@ -1,4 +1,5 @@
 #!/bin/bash
+chmod u+x
 
 #Creating archive, going into folder to avoid creating the parent directory in the archive.
 cd snapshot

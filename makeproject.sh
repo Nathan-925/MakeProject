@@ -1,4 +1,5 @@
 # !/bin/bash
+chmod u+x
 
 # On my honor:
 #
@@ -74,6 +75,7 @@ snapshotscript=./files/make-snapshot.sh
 
 cat << 'EOF' > $compilescript 
 #!/bin/bash
+chmod u+x
 
 #Input filtering.
 if [[ $# -gt 1 && $1 != "-debug" || $# -gt 1 ]]
@@ -138,6 +140,7 @@ EOF
 
 cat << 'EOF' > $runscript
 #!/bin/bash
+chmod u+x
 
 #Input checking.
 if [[ $# != 0 ]]
@@ -167,6 +170,7 @@ EOF
 
 cat << 'EOF' > $snapshotscript
 #!/bin/bash
+chmod u+x
 
 #Creating archive, going into folder to avoid creating the parent directory in the archive.
 cd snapshot
