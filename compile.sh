@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Input filtering.
 if [[ $# -gt 1 && $1 != "-debug" || $# -gt 1 ]]
 then

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Creating archive, going into folder to avoid creating the parent directory in the archive.
 cd snapshot
 if tar -cf ../../snapshots/snapshot-$(date "+%Y-%m-%d-%H%M%S").tar *;

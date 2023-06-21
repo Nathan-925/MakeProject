@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Input checking.
 if [[ $# != 0 ]]
 then
