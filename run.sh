@@ -1,5 +1,4 @@
 #!/bin/bash
-chmod u+x
 
 #Input checking.
 if [[ $# != 0 ]]
